@@ -1,0 +1,13 @@
+#header{
+    text-align: center;
+}
+.button1{
+    text-align: center;
+    
+}
+ion-button[color="dark"]{
+    text-transform: initial;
+}
+ion-content{
+   --background: var(--ion-color-secondary);
+}

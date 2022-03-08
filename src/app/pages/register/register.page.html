@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <ion-label position="floating">First Name</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="floating">Last Name</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="floating">Phone No</ion-label>
+      <ion-input type="tel"></ion-input>
+    </ion-item>
+  </ion-card>
+
+
+   <ion-card>
+    <ion-radio-group>
+      <ion-list-header>
+        <ion-label>Gender</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label >Male</ion-label>
+        <ion-radio value="male" slot="end"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label >Female</ion-label>
+        <ion-radio value="female"slot="end"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+    
+  </ion-card>
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Address information</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">Address 1</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Country</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">State</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">City</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Pin Code</ion-label>
+          <ion-input type="tel"></ion-input>
+        </ion-item>
+        
+          
+          <ion-list>
+            <ion-item>
+              <ion-label>Country</ion-label>
+              <ion-select value="">
+                <ion-select-option value="brown">India</ion-select-option>
+                <ion-select-option value="blonde">U.S.A</ion-select-option>
+                <ion-select-option value="black">Austrelia</ion-select-option>
+                <ion-select-option value="red">New York</ion-select-option>
+              </ion-select>
+            </ion-item>
+          </ion-list> 
+      </ion-card-content>
+  </ion-card>
+
+
+  <ion-card class="button">
+    <ion-button color="secondary">Submit</ion-button>
+    
+    <ion-button color="secondary">Clear</ion-button>
+  </ion-card>
+ 
+  
+</ion-content>

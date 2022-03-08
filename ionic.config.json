@@ -1,0 +1,7 @@
+{
+  "name": "demotask-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
